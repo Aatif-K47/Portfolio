@@ -1,6 +1,6 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import corpcommentImg from "@/public/corpcomment.png";
+import projectPizza from "@/public/projectPizza.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
@@ -42,12 +42,12 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Fast React App",
     description:
       "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
-    link: "https://corpcomment.com",
+    imageUrl: projectPizza,
+    link: "https://fastrpizza.vercel.app/",
   },
   {
     title: "rmtDev",
