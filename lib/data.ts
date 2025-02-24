@@ -43,15 +43,7 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: "Pizza Ordering App",
-    description: `I built a Pizza Ordering App using React and Tailwind CSS, providing a seamless and interactive user experience. The app allows users to customize their pizzas, add them to the cart, and place orders effortlessly. It features a modern UI, smooth animations, and a responsive design, ensuring a great experience across all devices.
-
-      Key Features:
-      ✅ Dynamic UI – Users can customize pizza size, toppings, and quantity.
-      ✅ Cart & Order Management – Add, remove, and modify orders in real-time.
-      ✅ Responsive Design – Fully optimized for web, tablet, and mobile screens.
-      ✅ Fast & Interactive – Built with React for a smooth and snappy experience.
-
-This project showcases my ability to create functional and visually appealing web applications using modern frontend technologies. 🚀`,
+    description: `A sleek and interactive pizza ordering app built with React and Tailwind CSS. Users can customize pizzas, add them to the cart, and place orders with a smooth and responsive UI. The app features real-time order management, dynamic UI components, and a modern design, ensuring an effortless user experience across all devices. `,
     tags: ["React", "Tailwind",],
     imageUrl: projectPizza,
     link: "https://fastrpizza.vercel.app/",
