@@ -43,7 +43,7 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: "Pizza Ordering App",
-    description: `A sleek and interactive pizza ordering app built with React and Tailwind CSS. Users can customize pizzas, add them to the cart, and place orders with a smooth and responsive UI. The app features real-time order management, dynamic UI components, and a modern design, ensuring an effortless user experience across all devices. `,
+    description: `A responsive pizza ordering app using React & Tailwind, featuring customization, real-time cart management, and a smooth, modern UI. 🍕🚀`,
     tags: ["React", "Tailwind",],
     imageUrl: projectPizza,
     link: "https://fastrpizza.vercel.app/",
