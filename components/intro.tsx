@@ -63,7 +63,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Aatif.</span> I'm a {' '}
+        <span className="font-bold">Hello, I am Aatif.</span> I am a {' '}
         <span className="font-bold">Frontend developer</span> with {' '}
         <span className="font-bold">more than 1 year</span> of experience. I enjoy {' '}
         building <span className="italic">sites</span>. My focus is {' '}

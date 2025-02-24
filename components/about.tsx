@@ -34,9 +34,9 @@ export default function About() {
 </p>
 
 <p>
-  <span className="italic">When I'm not coding</span>, I am a{" "}
+  <span className="italic">When I am not coding</span>, I am a{" "}
   <span className="font-medium">sports enthusiast</span>. I love staying active, 
-  whether it's playing <span className="font-medium">cricket, football, Badminton</span>, 
+  whether it is playing <span className="font-medium">cricket, football, Badminton</span>, 
   or hitting the gym. Sports keep me disciplined, motivated, and always striving 
   for improvement—just like in programming!
 </p>
