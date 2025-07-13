@@ -1,8 +1,8 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import projectPizza from "@/public/projectPizza.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import blog from "@/public/blog.png";
+import farAway from "@/public/Far away.png";
 
 export const links = [
   { name: "Home", hash: "#home" },
@@ -44,25 +44,25 @@ export const projectsData = [
   {
     title: "Pizza Ordering App",
     description: `A responsive pizza ordering app using React & Tailwind, featuring customization, real-time cart management, and a smooth, modern UI. 🍕🚀`,
-    tags: ["React", "Tailwind",],
+    tags: ["React", "Tailwind"],
     imageUrl: projectPizza,
     link: "https://fastrpizza.vercel.app/",
   },
   {
-    title: "rmtDev",
+    title: "Blog website",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
-    link: "https://rmtdev.com",
+      "A simple and modern blog website built with React and Firebase, allowing users to read, write, and manage posts in real-time. Fast, responsive, and easy to use.",
+    tags: ["React", "Firebase", "Javascript", "Bootstrap"],
+    imageUrl: blog,
+    link: "https://blog-webcel.vercel.app/",
   },
   {
-    title: "Word Analytics",
+    title: "Packing todo",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
-    link: "https://wordanalytics.com",
+      "A handy packing checklist app where users can create a list of items to pack, check them off as they go, and get a friendly message once everything is packed. Simple, intuitive, and travel-ready!",
+    tags: ["React"],
+    imageUrl: farAway,
+    link: "https://packing-todo.vercel.app/",
   },
 ] as const;
 
